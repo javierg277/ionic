@@ -1,0 +1,44 @@
+ion-header {
+    background-color: #ffffff; 
+  }
+  
+  ion-toolbar {
+    --color: #fff; 
+  }
+  
+  ion-title {
+    color: #ffffff; 
+    text-align: center; 
+  }
+  
+ 
+  ion-content {
+    padding: 20px; 
+  }
+  
+  
+  ion-label {
+    font-weight: bold; 
+  }
+  
+  ion-item {
+    margin-bottom: 20px; 
+  }
+  
+  ion-input,
+  ion-textarea {
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    padding: 10px; 
+    width: 100%; 
+  }
+  
+  /* Estilos para los botones */
+  ion-button {
+    margin-top: 10px; /* Agrega un margen superior a los botones */
+  }
+  
+  /* Estilos para los iconos dentro de los botones */
+  ion-icon {
+    --ion-color: #fff; /* Cambia el color del icono */
+  }

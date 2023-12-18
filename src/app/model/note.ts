@@ -6,5 +6,5 @@ export interface Note {
     description?:string,
     date:string,
     img?:string,
-    position?:string
+    position?:any
 }

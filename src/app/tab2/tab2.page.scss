@@ -1,4 +1,46 @@
 .imagenes{
   max-width: 70px;
   max-height: 150px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.toolbarion{
+  background-color: #518aee;
+  min-height: 55px;
+}
+ion-header {
+  background-color: #3880ff; /* Cambia el color de fondo del encabezado */
+}
+
+ion-toolbar {
+  --color: #2a60a7; /* Cambia el color del texto en la barra de herramientas */
+}
+
+ion-title {
+  color: #fff; /* Cambia el color del título */
+  text-align: center; /* Centra el texto del título */
+}
+
+/* Estilos para el contenido */
+ion-content {
+  padding: 20px; /* Agrega un espacio interno al contenido */
+}
+
+/* Estilos para los elementos de la lista */
+ion-item {
+  margin-bottom: 10px; /* Agrega un margen inferior a los elementos de la lista */
+}
+
+ion-label {
+  font-weight: bold; /* Establece el texto de la etiqueta en negrita */
+}
+
+ion-text {
+  font-size: 14px; /* Ajusta el tamaño del texto */
+}
+
+/* Estilos para los iconos */
+ion-icon {
+  --ion-color: #3880ff; /* Cambia el color del icono */
+  zoom: 1.5; /* Ajusta el tamaño del icono */
 }
